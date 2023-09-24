@@ -19,7 +19,10 @@ struct ContentView: View {
                     Text("Поиск")
                 }
         }
-        .accentColor(.red)
+        .onAppear() {
+            UITabBar.appearance().backgroundColor = .systemGray6
+        }
+        .tint(.red)
         .overlay(alignment: .bottom) {
             PlayerView()
                 .padding(.bottom, 33)
