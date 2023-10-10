@@ -4,7 +4,7 @@ struct ListView: View {
     @Environment(\.dismiss) private var dismiss
     @State private var editMode = EditMode.active
     @State private var items = ListItem.items
-
+    
     var body: some View {
         List {
             ForEach(items, id: \.self) { item in
@@ -22,7 +22,7 @@ struct ListView: View {
         .navigationBarItems(
             trailing: Button("Готово") { dismiss() }.tint(.red))
     }
-
+    
     private func move(from source: IndexSet, to destination: Int) {
         items.move(fromOffsets: source, toOffset: destination)
     }
