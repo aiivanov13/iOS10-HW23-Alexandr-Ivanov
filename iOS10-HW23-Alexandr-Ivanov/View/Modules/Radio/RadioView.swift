@@ -1,13 +1,21 @@
 import SwiftUI
 
-struct RadioView: View {
+struct RadioView: View {    
+    
     var body: some View {
         NavigationView {
-            ZStack {
-                Color.cyan.edgesIgnoringSafeArea(.top)
+            ScrollView(showsIndicators: false) {
+                FavoriteStationView()
+                
+                Divider()
+                    .padding([.bottom, .leading, .trailing])
+                
+                StationView()
+                    .padding([.leading, .trailing])
             }
             .navigationTitle("Радио")
         }
+        .padding(.bottom, 75)
     }
 }
 

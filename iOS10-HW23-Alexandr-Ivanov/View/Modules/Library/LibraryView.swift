@@ -6,6 +6,7 @@ struct LibraryView: View {
             VStack {
                 Text("Ищете свою музыку?")
                     .font(.system(size: 21, weight: .bold))
+                
                 Text("Здесь появится купленная Вами в iTunes Store музыка.")
                     .padding([.leading, .trailing], 50)
                     .multilineTextAlignment(.center)

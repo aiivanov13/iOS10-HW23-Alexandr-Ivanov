@@ -19,6 +19,9 @@
 		F6D352D42AC06240007CCB84 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D32AC06240007CCB84 /* CheckboxView.swift */; };
 		F6D352D62AC08180007CCB84 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D52AC08180007CCB84 /* ListModel.swift */; };
 		F6D352D82AC083E4007CCB84 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D72AC083E4007CCB84 /* ListCellView.swift */; };
+		F6F7DE522ACBF2D0003D6154 /* FavoriteStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */; };
+		F6F7DE542ACC0844003D6154 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE532ACC0844003D6154 /* RadioModel.swift */; };
+		F6F7DE562ACC0DD8003D6154 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE552ACC0DD8003D6154 /* StationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		F6D352D32AC06240007CCB84 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 		F6D352D52AC08180007CCB84 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
 		F6D352D72AC083E4007CCB84 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationView.swift; sourceTree = "<group>"; };
+		F6F7DE532ACC0844003D6154 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		F6F7DE552ACC0DD8003D6154 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				F6D352D52AC08180007CCB84 /* ListModel.swift */,
+				F6F7DE532ACC0844003D6154 /* RadioModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				F626EE932ABED1CD006DD955 /* RadioView.swift */,
+				F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */,
+				F6F7DE552ACC0DD8003D6154 /* StationView.swift */,
 			);
 			path = Radio;
 			sourceTree = "<group>";
@@ -243,6 +252,9 @@
 				F626EE812ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift in Sources */,
 				F626EE922ABED178006DD955 /* ContentView.swift in Sources */,
 				F6D352D42AC06240007CCB84 /* CheckboxView.swift in Sources */,
+				F6F7DE522ACBF2D0003D6154 /* FavoriteStationView.swift in Sources */,
+				F6F7DE542ACC0844003D6154 /* RadioModel.swift in Sources */,
+				F6F7DE562ACC0DD8003D6154 /* StationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

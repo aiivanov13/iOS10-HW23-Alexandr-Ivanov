@@ -21,6 +21,7 @@ struct ContentView: View {
         }
         .onAppear() {
             UITabBar.appearance().backgroundColor = .systemGray6
+            UITabBar.appearance().barTintColor = .systemGray6
         }
         .tint(.red)
         .overlay(alignment: .bottom) {
