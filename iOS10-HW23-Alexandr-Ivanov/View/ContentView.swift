@@ -26,7 +26,6 @@ struct ContentView: View {
         .tint(.red)
         .overlay(alignment: .bottom) {
             PlayerView()
-                .padding(.bottom, 33)
         }
     }
 }
