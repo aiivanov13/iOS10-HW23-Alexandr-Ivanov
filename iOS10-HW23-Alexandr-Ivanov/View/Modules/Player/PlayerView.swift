@@ -15,19 +15,15 @@ struct PlayerView: View {
                 HStack {
                     Spacer()
                     
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 5)
-                            .frame(width: 50, height: 50)
-                            .foregroundColor(Color(UIColor.systemGray5))
-                            .shadow(color: Color(UIColor.systemGray4), radius: 5, y: 4)
-                        
-                        Image(systemName: "music.note")
-                            .foregroundColor(.gray)
-                    }
+                    Image(imageName)
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .shadow(color: Color(UIColor.systemGray4), radius: 5, y: 4)
+                        .cornerRadius(5)
                     
                     Spacer()
                     
-                    Text("Не исполняется")
+                    Text(title)
                         .lineLimit(1)
                         .font(.system(size: 18))
                         .frame(width: 220, alignment: .leading)
