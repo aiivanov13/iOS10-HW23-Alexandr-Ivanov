@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60096762AF2421E00ADB590 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60096752AF2421E00ADB590 /* SearchViewController.swift */; };
+		F60096792AF2E78C00ADB590 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F60096782AF2E78C00ADB590 /* SnapKit */; };
+		F600967B2AF2E78C00ADB590 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */; };
+		F600967E2AF2F08500ADB590 /* SearchCollectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */; };
+		F60096802AF3FBD700ADB590 /* SearchCollectionsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */; };
 		F60B645A2AEE53BC0007B296 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B64592AEE53BC0007B296 /* SearchModel.swift */; };
 		F60B645D2AEECEDC0007B296 /* FavoritePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B645C2AEECEDC0007B296 /* FavoritePlaylistView.swift */; };
 		F60B645F2AEEE1910007B296 /* CollectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B645E2AEEE1910007B296 /* CollectionSectionView.swift */; };
@@ -32,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60096752AF2421E00ADB590 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsCell.swift; sourceTree = "<group>"; };
+		F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsHeader.swift; sourceTree = "<group>"; };
 		F60B64592AEE53BC0007B296 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		F60B645C2AEECEDC0007B296 /* FavoritePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaylistView.swift; sourceTree = "<group>"; };
 		F60B645E2AEEE1910007B296 /* CollectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSectionView.swift; sourceTree = "<group>"; };
@@ -62,12 +70,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60096792AF2E78C00ADB590 /* SnapKit in Frameworks */,
+				F600967B2AF2E78C00ADB590 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F600967C2AF2F03700ADB590 /* SecondSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				F60096752AF2421E00ADB590 /* SearchViewController.swift */,
+				F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */,
+				F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */,
+			);
+			path = SecondSearchView;
+			sourceTree = "<group>";
+		};
 		F60B645B2AEECE8E0007B296 /* CollectionsDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +205,7 @@
 		F6D352DC2AC0D307007CCB84 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F600967C2AF2F03700ADB590 /* SecondSearchView */,
 				F626EE952ABED1E2006DD955 /* SearchView.swift */,
 				F697738A2AD72998005B59AC /* SearchCollectionsView.swift */,
 				F60B645B2AEECE8E0007B296 /* CollectionsDetail */,
@@ -217,6 +238,10 @@
 			dependencies = (
 			);
 			name = "iOS10-HW23-Alexandr-Ivanov";
+			packageProductDependencies = (
+				F60096782AF2E78C00ADB590 /* SnapKit */,
+				F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */,
+			);
 			productName = "iOS10-HW23-Alexandr-Ivanov";
 			productReference = F626EE7D2ABECC17006DD955 /* iOS10-HW23-Alexandr-Ivanov.app */;
 			productType = "com.apple.product-type.application";
@@ -245,6 +270,9 @@
 				Base,
 			);
 			mainGroup = F626EE742ABECC17006DD955;
+			packageReferences = (
+				F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F626EE7E2ABECC17006DD955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,12 +308,15 @@
 				F6FDD72D2AF0BDDC002C3CE0 /* SearchViewModel.swift in Sources */,
 				F60B645F2AEEE1910007B296 /* CollectionSectionView.swift in Sources */,
 				F697738B2AD72998005B59AC /* SearchCollectionsView.swift in Sources */,
+				F60096802AF3FBD700ADB590 /* SearchCollectionsHeader.swift in Sources */,
 				F626EE832ABECC17006DD955 /* LibraryView.swift in Sources */,
 				F626EE812ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift in Sources */,
 				F626EE922ABED178006DD955 /* ContentView.swift in Sources */,
 				F60B645D2AEECEDC0007B296 /* FavoritePlaylistView.swift in Sources */,
 				F60B645A2AEE53BC0007B296 /* SearchModel.swift in Sources */,
 				F65AE8B02ADC73D900347CB7 /* PlayerFullView.swift in Sources */,
+				F600967E2AF2F08500ADB590 /* SearchCollectionsCell.swift in Sources */,
+				F60096762AF2421E00ADB590 /* SearchViewController.swift in Sources */,
 				F65AE8AE2ADC72B500347CB7 /* CollectionsDetailView.swift in Sources */,
 				F6D352D42AC06240007CCB84 /* CheckboxView.swift in Sources */,
 				F6F7DE522ACBF2D0003D6154 /* FavoriteStationView.swift in Sources */,
@@ -493,6 +524,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F60096782AF2E78C00ADB590 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F626EE752ABECC17006DD955 /* Project object */;
 }
