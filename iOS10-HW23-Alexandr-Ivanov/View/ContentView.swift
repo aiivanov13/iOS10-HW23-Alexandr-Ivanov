@@ -13,7 +13,7 @@ struct ContentView: View {
                     Image(systemName: "dot.radiowaves.left.and.right")
                     Text("Радио")
                 }
-            SearchView()
+            SecondSearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                     Text("Поиск")
