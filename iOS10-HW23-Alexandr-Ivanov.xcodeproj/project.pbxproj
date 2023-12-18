@@ -7,18 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60096762AF2421E00ADB590 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60096752AF2421E00ADB590 /* SearchViewController.swift */; };
+		F60096792AF2E78C00ADB590 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F60096782AF2E78C00ADB590 /* SnapKit */; };
+		F600967B2AF2E78C00ADB590 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */; };
+		F600967E2AF2F08500ADB590 /* SearchCollectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */; };
+		F60096802AF3FBD700ADB590 /* SearchCollectionsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */; };
+		F60B645A2AEE53BC0007B296 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B64592AEE53BC0007B296 /* SearchModel.swift */; };
+		F60B645D2AEECEDC0007B296 /* FavoritePlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B645C2AEECEDC0007B296 /* FavoritePlaylistView.swift */; };
+		F60B645F2AEEE1910007B296 /* CollectionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60B645E2AEEE1910007B296 /* CollectionSectionView.swift */; };
 		F626EE812ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE802ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift */; };
-		F626EE832ABECC17006DD955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE822ABECC17006DD955 /* ContentView.swift */; };
+		F626EE832ABECC17006DD955 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE822ABECC17006DD955 /* LibraryView.swift */; };
 		F626EE852ABECC18006DD955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F626EE842ABECC18006DD955 /* Assets.xcassets */; };
 		F626EE882ABECC18006DD955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F626EE872ABECC18006DD955 /* Preview Assets.xcassets */; };
+		F626EE922ABED178006DD955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE912ABED178006DD955 /* ContentView.swift */; };
+		F626EE942ABED1CD006DD955 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE932ABED1CD006DD955 /* RadioView.swift */; };
+		F626EE962ABED1E2006DD955 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE952ABED1E2006DD955 /* SearchView.swift */; };
+		F626EE982ABED4C6006DD955 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE972ABED4C6006DD955 /* ListView.swift */; };
+		F626EE9A2ABEDA07006DD955 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F626EE992ABEDA07006DD955 /* PlayerView.swift */; };
+		F65AE8AE2ADC72B500347CB7 /* CollectionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AE8AD2ADC72B500347CB7 /* CollectionsDetailView.swift */; };
+		F65AE8B02ADC73D900347CB7 /* PlayerFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65AE8AF2ADC73D900347CB7 /* PlayerFullView.swift */; };
+		F697738B2AD72998005B59AC /* SearchCollectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F697738A2AD72998005B59AC /* SearchCollectionsView.swift */; };
+		F6D352D42AC06240007CCB84 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D32AC06240007CCB84 /* CheckboxView.swift */; };
+		F6D352D62AC08180007CCB84 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D52AC08180007CCB84 /* ListModel.swift */; };
+		F6D352D82AC083E4007CCB84 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D352D72AC083E4007CCB84 /* ListCellView.swift */; };
+		F6F7DE522ACBF2D0003D6154 /* FavoriteStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */; };
+		F6F7DE542ACC0844003D6154 /* RadioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE532ACC0844003D6154 /* RadioModel.swift */; };
+		F6F7DE562ACC0DD8003D6154 /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7DE552ACC0DD8003D6154 /* StationView.swift */; };
+		F6FDD72D2AF0BDDC002C3CE0 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FDD72C2AF0BDDC002C3CE0 /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60096752AF2421E00ADB590 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsCell.swift; sourceTree = "<group>"; };
+		F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsHeader.swift; sourceTree = "<group>"; };
+		F60B64592AEE53BC0007B296 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		F60B645C2AEECEDC0007B296 /* FavoritePlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaylistView.swift; sourceTree = "<group>"; };
+		F60B645E2AEEE1910007B296 /* CollectionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSectionView.swift; sourceTree = "<group>"; };
 		F626EE7D2ABECC17006DD955 /* iOS10-HW23-Alexandr-Ivanov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS10-HW23-Alexandr-Ivanov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F626EE802ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10_HW23_Alexandr_IvanovApp.swift; sourceTree = "<group>"; };
-		F626EE822ABECC17006DD955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F626EE822ABECC17006DD955 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		F626EE842ABECC18006DD955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F626EE872ABECC18006DD955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F626EE912ABED178006DD955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F626EE932ABED1CD006DD955 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		F626EE952ABED1E2006DD955 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F626EE972ABED4C6006DD955 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F626EE992ABEDA07006DD955 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		F65AE8AD2ADC72B500347CB7 /* CollectionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsDetailView.swift; sourceTree = "<group>"; };
+		F65AE8AF2ADC73D900347CB7 /* PlayerFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFullView.swift; sourceTree = "<group>"; };
+		F697738A2AD72998005B59AC /* SearchCollectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionsView.swift; sourceTree = "<group>"; };
+		F6D352D32AC06240007CCB84 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		F6D352D52AC08180007CCB84 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		F6D352D72AC083E4007CCB84 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStationView.swift; sourceTree = "<group>"; };
+		F6F7DE532ACC0844003D6154 /* RadioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioModel.swift; sourceTree = "<group>"; };
+		F6F7DE552ACC0DD8003D6154 /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		F6FDD72C2AF0BDDC002C3CE0 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +70,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60096792AF2E78C00ADB590 /* SnapKit in Frameworks */,
+				F600967B2AF2E78C00ADB590 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F600967C2AF2F03700ADB590 /* SecondSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				F60096752AF2421E00ADB590 /* SearchViewController.swift */,
+				F600967D2AF2F08500ADB590 /* SearchCollectionsCell.swift */,
+				F600967F2AF3FBD700ADB590 /* SearchCollectionsHeader.swift */,
+			);
+			path = SecondSearchView;
+			sourceTree = "<group>";
+		};
+		F60B645B2AEECE8E0007B296 /* CollectionsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F65AE8AD2ADC72B500347CB7 /* CollectionsDetailView.swift */,
+				F60B645C2AEECEDC0007B296 /* FavoritePlaylistView.swift */,
+				F60B645E2AEEE1910007B296 /* CollectionSectionView.swift */,
+			);
+			path = CollectionsDetail;
+			sourceTree = "<group>";
+		};
 		F626EE742ABECC17006DD955 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +117,8 @@
 		F626EE7F2ABECC17006DD955 /* iOS10-HW23-Alexandr-Ivanov */ = {
 			isa = PBXGroup;
 			children = (
-				F626EE802ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift */,
-				F626EE822ABECC17006DD955 /* ContentView.swift */,
+				F626EE8E2ABED106006DD955 /* App */,
+				F626EE8F2ABED110006DD955 /* View */,
 				F626EE842ABECC18006DD955 /* Assets.xcassets */,
 				F626EE862ABECC18006DD955 /* Preview Content */,
 			);
@@ -65,6 +131,95 @@
 				F626EE872ABECC18006DD955 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F626EE8E2ABED106006DD955 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F626EE802ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F626EE8F2ABED110006DD955 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F626EE9B2ABEDA8F006DD955 /* Models */,
+				F626EE902ABED14B006DD955 /* Modules */,
+				F626EE912ABED178006DD955 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F626EE902ABED14B006DD955 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F6D352D92AC083ED007CCB84 /* List */,
+				F6D352DA2AC0D2F7007CCB84 /* Library */,
+				F6D352DB2AC0D2FF007CCB84 /* Radio */,
+				F6D352DC2AC0D307007CCB84 /* Search */,
+				F6D352DD2AC0D30D007CCB84 /* Player */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F626EE9B2ABEDA8F006DD955 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6D352D52AC08180007CCB84 /* ListModel.swift */,
+				F6F7DE532ACC0844003D6154 /* RadioModel.swift */,
+				F60B64592AEE53BC0007B296 /* SearchModel.swift */,
+				F6FDD72C2AF0BDDC002C3CE0 /* SearchViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6D352D92AC083ED007CCB84 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F6D352D32AC06240007CCB84 /* CheckboxView.swift */,
+				F6D352D72AC083E4007CCB84 /* ListCellView.swift */,
+				F626EE972ABED4C6006DD955 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F6D352DA2AC0D2F7007CCB84 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F626EE822ABECC17006DD955 /* LibraryView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F6D352DB2AC0D2FF007CCB84 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				F626EE932ABED1CD006DD955 /* RadioView.swift */,
+				F6F7DE512ACBF2D0003D6154 /* FavoriteStationView.swift */,
+				F6F7DE552ACC0DD8003D6154 /* StationView.swift */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		F6D352DC2AC0D307007CCB84 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F600967C2AF2F03700ADB590 /* SecondSearchView */,
+				F626EE952ABED1E2006DD955 /* SearchView.swift */,
+				F697738A2AD72998005B59AC /* SearchCollectionsView.swift */,
+				F60B645B2AEECE8E0007B296 /* CollectionsDetail */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F6D352DD2AC0D30D007CCB84 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F626EE992ABEDA07006DD955 /* PlayerView.swift */,
+				F65AE8AF2ADC73D900347CB7 /* PlayerFullView.swift */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +238,10 @@
 			dependencies = (
 			);
 			name = "iOS10-HW23-Alexandr-Ivanov";
+			packageProductDependencies = (
+				F60096782AF2E78C00ADB590 /* SnapKit */,
+				F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */,
+			);
 			productName = "iOS10-HW23-Alexandr-Ivanov";
 			productReference = F626EE7D2ABECC17006DD955 /* iOS10-HW23-Alexandr-Ivanov.app */;
 			productType = "com.apple.product-type.application";
@@ -95,7 +254,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					F626EE7C2ABECC17006DD955 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -111,6 +270,9 @@
 				Base,
 			);
 			mainGroup = F626EE742ABECC17006DD955;
+			packageReferences = (
+				F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F626EE7E2ABECC17006DD955 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +299,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F626EE832ABECC17006DD955 /* ContentView.swift in Sources */,
+				F6D352D62AC08180007CCB84 /* ListModel.swift in Sources */,
+				F626EE962ABED1E2006DD955 /* SearchView.swift in Sources */,
+				F626EE942ABED1CD006DD955 /* RadioView.swift in Sources */,
+				F626EE9A2ABEDA07006DD955 /* PlayerView.swift in Sources */,
+				F6D352D82AC083E4007CCB84 /* ListCellView.swift in Sources */,
+				F626EE982ABED4C6006DD955 /* ListView.swift in Sources */,
+				F6FDD72D2AF0BDDC002C3CE0 /* SearchViewModel.swift in Sources */,
+				F60B645F2AEEE1910007B296 /* CollectionSectionView.swift in Sources */,
+				F697738B2AD72998005B59AC /* SearchCollectionsView.swift in Sources */,
+				F60096802AF3FBD700ADB590 /* SearchCollectionsHeader.swift in Sources */,
+				F626EE832ABECC17006DD955 /* LibraryView.swift in Sources */,
 				F626EE812ABECC17006DD955 /* iOS10_HW23_Alexandr_IvanovApp.swift in Sources */,
+				F626EE922ABED178006DD955 /* ContentView.swift in Sources */,
+				F60B645D2AEECEDC0007B296 /* FavoritePlaylistView.swift in Sources */,
+				F60B645A2AEE53BC0007B296 /* SearchModel.swift in Sources */,
+				F65AE8B02ADC73D900347CB7 /* PlayerFullView.swift in Sources */,
+				F600967E2AF2F08500ADB590 /* SearchCollectionsCell.swift in Sources */,
+				F60096762AF2421E00ADB590 /* SearchViewController.swift in Sources */,
+				F65AE8AE2ADC72B500347CB7 /* CollectionsDetailView.swift in Sources */,
+				F6D352D42AC06240007CCB84 /* CheckboxView.swift in Sources */,
+				F6F7DE522ACBF2D0003D6154 /* FavoriteStationView.swift in Sources */,
+				F6F7DE542ACC0844003D6154 /* RadioModel.swift in Sources */,
+				F6F7DE562ACC0DD8003D6154 /* StationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +425,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -339,6 +524,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F60096782AF2E78C00ADB590 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F600967A2AF2E78C00ADB590 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F60096772AF2E78C00ADB590 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F626EE752ABECC17006DD955 /* Project object */;
 }
